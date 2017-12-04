@@ -1,0 +1,22 @@
+{
+  "name": "solidity-koans",
+  "version": "1.0.0",
+  "description": "Solidity's path to enlightment",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martriay/solidity-koans.git"
+  },
+  "author": "Martín Triay (martriay)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martriay/solidity-koans/issues"
+  },
+  "homepage": "https://github.com/martriay/solidity-koans#readme",
+  "dependencies": {
+    "truffle": "^4.0.1"
+  }
+}
