@@ -24,7 +24,7 @@ contract Cup {
     // function is executed and otherwise, an exception is
     // thrown.
 
-    empty = true;
+    empty = false;
 
     // ~ no more will go in
     _;
@@ -32,7 +32,7 @@ contract Cup {
 
 
   // 2. About arguments
-  function holdingOpinions() hold(false) public returns (bool) {
+  function holdingOpinions() hold(true) public returns (bool) {
     return opinions;
   }
 
