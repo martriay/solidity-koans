@@ -1,7 +1,6 @@
 pragma solidity ^0.4.18;
 
 import "truffle/Assert.sol";
-import "../contracts/AboutModifiers.sol";
 
 // 1.   A Cup of Tea
 
