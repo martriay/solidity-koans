@@ -43,26 +43,26 @@ Compiling truffle/Assert.sol...
 
 ## Koans
 ### About Ethereum
-* About accounts
-* About transactions
-* About gas
-* About data
+* About accounts _(todo)_
+* About transactions _(todo)_
+* About gas _(todo)_
+* About data _(todo)_
 
 ### About Solidity
-* About contracts
-* About types
-* About functions
+* About contracts _(todo)_
+* About types _(todo)_
+* About functions _(todo)_
 * About modifiers
-* About visibility
-* About events
-* About inheritance
-* About interfaces
-* About libraries
-* About units
-* About global variables
-* About error handling
+* About visibility _(todo)_
+* About events _(todo)_
+* About inheritance _(todo)_
+* About interfaces _(todo)_
+* About libraries _(todo)_
+* About units _(todo)_
+* About global variables _(todo)_
+* About error handling _(todo)_
 
 ### About Security
-* About overflow
-* About reentrancy
-* About gassy arrays
+* About overflow _(todo)_
+* About reentrancy _(todo)_
+* About gassy arrays _(todo)_
