@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/martriay/solidity-koans#readme",
   "dependencies": {
-    "truffle": "^4.0.1"
+    "truffle": "^4.0.1",
+    "web3": "^1.0.0-beta.26"
   }
 }

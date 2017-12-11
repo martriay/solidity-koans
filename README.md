@@ -43,7 +43,7 @@ Compiling ./contracts/Migrations.sol...
 
 ## Koans
 ### About Ethereum
-1. About accounts _(todo)_
+1. About accounts
 1. About transactions _(todo)_
 1. About gas _(todo)_
 1. About data _(todo)_
