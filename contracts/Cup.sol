@@ -10,10 +10,10 @@ pragma solidity ^0.4.18;
 contract Cup {
   bool filled;
 
-  
+
   // 1. Modifiers can be used to easily change the behaviour of functions
 
-  function isEmpty() fill constant public returns (bool) {
+  function isEmpty() fill public returns (bool) {
     return ! filled;
   }
 
