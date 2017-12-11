@@ -43,14 +43,14 @@ Compiling ./contracts/Migrations.sol...
 
 ## Koans
 ### About Ethereum
-1. About accounts
+1. [About accounts](https://github.com/martriay/solidity-koans/blob/master/test/AboutAccounts.js)
 1. About transactions _(todo)_
 1. About gas _(todo)_
 1. About data _(todo)_
 
 ### About Solidity
 1. About contracts _(todo)_
-1. About modifiers
+1. [About modifiers](https://github.com/martriay/solidity-koans/blob/master/test/AboutModifiers.js)
 1. About events _(todo)_
 1. About inheritance _(todo)_
 1. About visibility _(todo)_
