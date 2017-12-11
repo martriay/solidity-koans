@@ -10,7 +10,9 @@ pragma solidity ^0.4.18;
 contract Cup {
   bool filled;
 
-  // 1. About modifiers
+  
+  // 1. Modifiers can be used to easily change the behaviour of functions
+
   function isEmpty() fill constant public returns (bool) {
     return ! filled;
   }
@@ -28,7 +30,8 @@ contract Cup {
   }
 
 
-  // 2. About arguments
+  // 2. Modifiers can receive arguments
+
   function opinions() holding(true) pure public returns (bool) {
     return false;
   }
