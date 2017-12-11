@@ -28,17 +28,16 @@ To achieve enlightment you have to run the test, see it fail and then fix the co
 
 To run tests we use [`truffle`](https://github.com/trufflesuite/truffle) [`test`](http://truffleframework.com/docs/getting_started/testing):
 ```
-$ npx truffle test test/AboutModifiers.js
 Compiling ./contracts/Cup.sol...
 Compiling ./contracts/Migrations.sol...
 
 
   Contract: About modifiers
-    ✓ Modifiers can be used to easily change the behaviour of functions (46ms)
-    ✓ Modifiers can receive arguments (50ms)
+    ✓ Modifiers can be used to easily change the behaviour of functions
+    ✓ Modifiers can receive arguments
 
 
-  2 passing (208ms)
+  2 passing (171ms)
 ```
 > Note: the `npx` command [comes with npm](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) as of npm@5.2.0 version.
 

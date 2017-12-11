@@ -11,7 +11,7 @@ contract Cup {
   bool filled;
 
   // 1. About modifiers
-  function isEmpty() fill public returns (bool) {
+  function isEmpty() fill constant public returns (bool) {
     return ! filled;
   }
 
@@ -29,7 +29,7 @@ contract Cup {
 
 
   // 2. About arguments
-  function opinions() holding(true) public returns (bool) {
+  function opinions() holding(true) pure public returns (bool) {
     return false;
   }
 
