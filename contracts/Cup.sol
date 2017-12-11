@@ -8,36 +8,33 @@ pragma solidity ^0.4.18;
 // "Like this cup," Nan-in said, "you are full of your own opinions and speculations. How can I show you Zen unless you first empty your cup?"
 
 contract Cup {
-  bool empty;
-  bool opinions;
-
+  bool filled;
 
   // 1. About modifiers
   function isEmpty() fill public returns (bool) {
-    return empty;
+    return ! filled;
   }
 
   modifier fill() {
+    // ~ no more will go in
+    filled = true;
+
     // The function body is inserted where the special symbol
     // "_;" in the definition of a modifier appears.
     // This means that if the owner calls this function, the
     // function is executed and otherwise, an exception is
     // thrown.
-
-    empty = false;
-
-    // ~ no more will go in
     _;
   }
 
 
   // 2. About arguments
-  function holdingOpinions() hold(true) public returns (bool) {
-    return opinions;
+  function opinions() holding(true) public returns (bool) {
+    return false;
   }
 
-  modifier hold(bool _hold) {
-    opinions = _hold;
+  modifier holding(bool _holding) {
+    require(! _holding);
     _;
   }
 }
