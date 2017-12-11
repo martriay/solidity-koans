@@ -16,12 +16,13 @@ npm install
 ```
 
 ## About koans
+Every koan is a test written in Javacript which needs to be fixed in order to pass.
+
 > In test-driven development (TDD) the mantra has always been red: write a failing test and run it, green: make the test pass, and refactor: look at the code and see if you can make it any better.
+> With the koans, you will need to run the tests and see it fail (red), make the test pass (green), then take a moment and reflect upon the test to see what it is teaching you and improve the code to better communicate its intent (refactor).
 
-In other words, every koan is a test written in Solidity which needs to be fixed in order to pass.
-
-Each koan consists of a test contract living in the `tests/` folder.
-To achieve enlightment you have to run the test, see it fail and then fix the corresponding files in both the `tests/` and `contracts/` directory.
+Each koan consists of a test contract living in the `tests/` folder and may or may not involve contracts from the `contracts/` directory.
+To achieve enlightment you have to run the test, see it fail and then fix the corresponding files.
 
 To run a test contract use [`truffle`](https://github.com/trufflesuite/truffle) [`test`](http://truffleframework.com/docs/getting_started/testing):
 
